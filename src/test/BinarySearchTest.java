@@ -16,7 +16,6 @@ public class BinarySearchTest {
             assertEquals(10,10,.001);
         }
 
-
         @Test
         public void testReturnsTrue() {
             assertEquals(-1, BonusBinarySearch.binarySearch(testArray, 7) );
@@ -28,8 +27,6 @@ public class BinarySearchTest {
             assertEquals(9, BonusBinarySearch.binarySearch(testArray, 91) );
             assertEquals(0, BonusBinarySearch.binarySearch(testArray, 2) );
             assertEquals(4, BonusBinarySearch.binarySearch(testArray, 16) );
-            //assertTrue(BalancedBrackets.hasBalancedBrackets("Launch[Code]"));
-
         }
     }
 
